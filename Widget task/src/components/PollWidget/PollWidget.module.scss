@@ -1,14 +1,13 @@
 .pollWidgetWrapper{
     margin-top: 20px;
     .question{
-        color: #151518;
-        text-align: left;
-        font-size: 20px;
-        font-weight: 500;
-       
+      color: var(--textBlackShade);
+      text-align: left;
+      font-size: 20px;
+      font-weight: 500;
     }
 
-.poll_option{
+  .poll_option{
     border: 2px solid rgba(0, 0, 0, 0.25);
     display: flex;
     align-items: center;
@@ -19,7 +18,7 @@
         cursor: pointer;
     }
     &.poll_option_active{
-        border: 2px solid #5e2ced;
+        border: 2px solid var(--brandColor);
     }
     .radio_button_container {
         color: rgba(0, 0, 0, 0.75);
@@ -64,7 +63,7 @@
       /* When the radio button is checked */
       .radio_button_container input:checked ~ .checkmark {
         background-color: rgba(0, 0, 0, 0);
-        border-color: #5e2ced;
+        border-color: var(--brandColor);
       }
       
       /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -81,16 +80,14 @@
       
       /* Style the indicator (dot/circle) */
       .radio_button_container .checkmark:after {
-        top: 4px;
-        left: 4px;
+        top: 2px;
+        left: 2px;
         width: 13px;
         height: 13px;
         border-radius: 50%;
-        background: #5e2ced;
+        background: var(--brandColor);
       }
-    }
-    
-  
+  }
 }
 
 

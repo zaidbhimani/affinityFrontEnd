@@ -2,7 +2,7 @@ export const questionArray = {
     personal: [
         {
             id: 1,
-            question: "Your favourite food ?",
+            question: "Your favourite food?",
             answers: [
                 'Biryani',
                 'Chinese',
@@ -11,7 +11,7 @@ export const questionArray = {
         },
         {
             id: 2,
-            question: "Your favourite color",
+            question: "Your favourite color?",
             answers: [
                 'Red',
                 'Blue',
@@ -22,7 +22,7 @@ export const questionArray = {
     professional: [
         {
             id: 1,
-            question: "Your favourite Framework ?",
+            question: "Your favourite Framework?",
             answers: [
                 'React',
                 'Angular',
@@ -31,7 +31,7 @@ export const questionArray = {
         },
         {
             id: 2,
-            question: "Your favourite code editor",
+            question: "Your favourite code editor?",
             answers: [
                 'Visual studio',
                 'Sublime text',
