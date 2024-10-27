@@ -15,7 +15,6 @@ const PollWidget = (props) => {
       });
     }
   }, [selectedAnswer]);
-console.log("selectedOption", selectedOption)
   const setOption = (question, element) => {
     setSelectedOption({
       question,
