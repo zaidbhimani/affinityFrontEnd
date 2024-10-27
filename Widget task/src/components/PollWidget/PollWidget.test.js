@@ -1,4 +1,4 @@
-import { render, screen, waitFor } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 
 import userEvent from "@testing-library/user-event";
 
@@ -29,6 +29,8 @@ describe("PollWidget", () => {
       question: "Your favourite food?",
     });
   });
+
+
 
   test("WHEN user click on option pre selected And user click on it THEN option will get de selected", async () => {
     const getSelectedData = jest.fn();

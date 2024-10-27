@@ -47,9 +47,7 @@ const PollWidget = (props) => {
                   type="radio"
                   checked={selectedOption?.answer === element}
                   name={`${question}_radio`}
-                  onChange={() => {
-                    setOption(question, element);
-                  }}
+                  onChange={() => {}}
                 />
                 <span className={styles.checkmark}></span>
               </label>
