@@ -1,0 +1,36 @@
+
+.container{
+    max-width: 500px;
+    width:100%;
+    margin: 35px auto 0 auto;
+    .results{
+        color: #151518;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      
+        margin:0 auto 10px auto;
+        .questionWrapper{
+            color: #151518;
+            font-weight: 500;
+        }
+        .answerWrapper{
+            color: #3c3e47;
+            font-weight: 400;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+   .container{
+       padding:0px 20px;
+       width: Calc(100% - 40px);
+   }
+}

@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyWrapper{
+  max-width: 500px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:20px;
 }
 
 .App-logo {
@@ -34,5 +44,12 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .bodyWrapper{
+      padding:0px 20px;
+      width: Calc(100% - 40px);
   }
 }
